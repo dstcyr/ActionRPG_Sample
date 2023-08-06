@@ -1,7 +1,9 @@
 # ActionRPG_SampleUE51
+![ActionRPG](ActionRPG.png)
+
 Action RPG sample project converted to Unreal Engine 5.1
 
-To make the project open in Unreal Engine 5.1, I had to do the following changes :
+To make the project open in Unreal Engine 5.1, I had to make the following changes:
 
 * Removed `SlateRemote` from `ActionRPG.uproject`
 * Replaced `IniKeyBlacklist` with `IniKeyDenylist` in `DefaultGame.ini`
@@ -13,7 +15,7 @@ To make the project open in Unreal Engine 5.1, I had to do the following changes
 
 Improvements :
 
-* TODO : Converted the inputs to use the enhanced input system
+* TODO: Convert the inputs to use the enhanced input system.
 
 
 
