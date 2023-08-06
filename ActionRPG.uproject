@@ -165,7 +165,9 @@
 		"Android",
 		"IOS",
 		"WindowsNoEditor",
-		"MacNoEditor"
+		"MacNoEditor",
+		"HoloLens",
+		"Windows"
 	],
 	"EpicSampleNameHash": "2961006109"
 }
