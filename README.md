@@ -1,7 +1,7 @@
 # ActionRPG_SampleUE51
-![ActionRPG](ActionRPG.png)
-
 Action RPG sample project converted to Unreal Engine 5.1
+
+![ActionRPG](ActionRPG.png)
 
 To make the project open in Unreal Engine 5.1, I had to make the following changes:
 
