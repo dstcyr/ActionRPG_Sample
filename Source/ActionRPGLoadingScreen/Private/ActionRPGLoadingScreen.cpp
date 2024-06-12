@@ -17,11 +17,13 @@ struct FRPGLoadingScreenBrush : public FSlateDynamicImageBrush, public FGCObject
 
 	virtual void AddReferencedObjects(FReferenceCollector& Collector)
 	{
-		if (UObject* CachedResourceObject = GetResourceObject())
+		if (TObjectPtr<UObject> CachedResourceObject = GetResourceObject())
 		{
 			Collector.AddReferencedObject(CachedResourceObject);
 		}
 	}
+
+    virtual FString GetReferencerName() const { return "FRPGLoadingScreenBrush"; }
 };
 
 class SRPGLoadingScreen : public SCompoundWidget

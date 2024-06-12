@@ -8,9 +8,9 @@ public class ActionRPGTarget : TargetRules
 	public ActionRPGTarget(TargetInfo Target)
 		: base(Target)
 	{
-		Type = TargetType.Game;
-		ExtraModuleNames.AddRange(new string[] { "ActionRPG" });
-
-		DefaultBuildSettings = BuildSettingsVersion.V2;
+        Type = TargetType.Game;
+        DefaultBuildSettings = BuildSettingsVersion.Latest;
+        IncludeOrderVersion = EngineIncludeOrderVersion.Latest;
+        ExtraModuleNames.AddRange(new string[] { "ActionRPG" });
 	}
 }
